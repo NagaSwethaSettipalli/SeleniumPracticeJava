@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SeleniumPractice]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.SeleniumPractice.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="First test(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.SeleniumPractice.testCases.TC2_AddNewCustomerTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="addNewCustomer"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.SeleniumPractice.testCases.TC2_AddNewCustomerTest -->
+    </classes>
+  </test> <!-- First test(failed) -->
+</suite> <!-- Failed suite [SeleniumPractice] -->

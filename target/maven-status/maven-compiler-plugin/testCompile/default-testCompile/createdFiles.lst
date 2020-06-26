@@ -1,0 +1,12 @@
+com\SeleniumPractice\testCases\TC1_LoginTest.class
+com\SeleniumPractice\testCases\TC2_AddNewCustomerTest.class
+com\SeleniumPractice\testCases\TC3_LoginDataDrivenTest.class
+com\SeleniumPractice\utilities\ReadConfig.class
+com\SeleniumPractice\PageObjects\LoginPage.class
+com\SeleniumPractice\rough\MercuryToursDataDrivenTest.class
+com\SeleniumPractice\utilities\XLUtils.class
+com\SeleniumPractice\testCases\BaseClass.class
+com\SeleniumPractice\PageObjects\AddNewCustomerPage.class
+com\SeleniumPractice\rough\ReadingDataFromExcel.class
+com\SeleniumPractice\rough\MoneyControlCalculatorDataDrivenTest.class
+com\SeleniumPractice\utilities\Reporting.class

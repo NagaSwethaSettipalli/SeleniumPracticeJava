@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="SeleniumPractice">
+<listeners>
+<listener class-name ="com.SeleniumPractice.utilities.Reporting"/>
+</listeners>
+<test name = "First test">
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="com.SeleniumPractice.testCases.TC1_LoginTest"/> 
+<!-- <class name="com.SeleniumPractice.testCases.TC3_LoginDataDrivenTest"></class> -->
+<class name="com.SeleniumPractice.testCases.TC2_AddNewCustomerTest"></class>
+</classes>
+</test>
+</suite>
