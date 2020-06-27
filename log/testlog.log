@@ -258,3 +258,43 @@
 2020-06-26 19:02:29,453 - SeleniumPractice -INFO - Login test passed
 2020-06-26 19:02:44,088 - SeleniumPractice -INFO - url is opened
 2020-06-26 19:03:40,523 - SeleniumPractice -INFO - Providing Customer details
+2020-06-27 15:26:32,940 - SeleniumPractice -INFO - url is opened
+2020-06-27 15:26:33,411 - SeleniumPractice -INFO - Entered Username
+2020-06-27 15:26:33,594 - SeleniumPractice -INFO - Entered password
+2020-06-27 15:26:36,382 - SeleniumPractice -INFO - Clicked on submit button
+2020-06-27 15:26:39,392 - SeleniumPractice -INFO - Login test passed
+2020-06-27 15:26:49,032 - SeleniumPractice -INFO - url is opened
+2020-06-27 15:26:55,954 - SeleniumPractice -INFO - Providing Customer details
+2020-06-27 15:26:56,076 - SeleniumPractice -INFO - Entered Customer name
+2020-06-27 15:26:56,159 - SeleniumPractice -INFO - Entered Customer gender
+2020-06-27 15:26:59,387 - SeleniumPractice -INFO - Entered Customer DOB
+2020-06-27 15:26:59,647 - SeleniumPractice -INFO - Entered Customer address
+2020-06-27 15:27:00,034 - SeleniumPractice -INFO - Entered Customer city
+2020-06-27 15:27:00,171 - SeleniumPractice -INFO - Entered Customer state
+2020-06-27 15:27:00,292 - SeleniumPractice -INFO - Entered Customer PIN
+2020-06-27 15:27:00,426 - SeleniumPractice -INFO - Entered Customer Mobileno
+2020-06-27 15:27:00,683 - SeleniumPractice -INFO - Entered Customer email
+2020-06-27 15:27:00,806 - SeleniumPractice -INFO - Entered Customer password
+2020-06-27 15:27:02,781 - SeleniumPractice -INFO - Clicked on submit button
+2020-06-27 15:27:05,782 - SeleniumPractice -INFO - validation started....
+2020-06-27 15:27:05,815 - SeleniumPractice -INFO - test case passed....
+2020-06-27 15:28:37,415 - SeleniumPractice -INFO - url is opened
+2020-06-27 15:28:37,702 - SeleniumPractice -INFO - Entered Username
+2020-06-27 15:28:37,862 - SeleniumPractice -INFO - Entered password
+2020-06-27 15:28:39,972 - SeleniumPractice -INFO - Clicked on submit button
+2020-06-27 15:28:42,994 - SeleniumPractice -INFO - Login test passed
+2020-06-27 15:28:52,913 - SeleniumPractice -INFO - url is opened
+2020-06-27 15:29:00,362 - SeleniumPractice -INFO - Providing Customer details
+2020-06-27 15:29:00,487 - SeleniumPractice -INFO - Entered Customer name
+2020-06-27 15:29:00,573 - SeleniumPractice -INFO - Entered Customer gender
+2020-06-27 15:29:03,795 - SeleniumPractice -INFO - Entered Customer DOB
+2020-06-27 15:29:03,984 - SeleniumPractice -INFO - Entered Customer address
+2020-06-27 15:29:04,117 - SeleniumPractice -INFO - Entered Customer city
+2020-06-27 15:29:04,298 - SeleniumPractice -INFO - Entered Customer state
+2020-06-27 15:29:04,675 - SeleniumPractice -INFO - Entered Customer PIN
+2020-06-27 15:29:04,854 - SeleniumPractice -INFO - Entered Customer Mobileno
+2020-06-27 15:29:05,090 - SeleniumPractice -INFO - Entered Customer email
+2020-06-27 15:29:05,242 - SeleniumPractice -INFO - Entered Customer password
+2020-06-27 15:29:06,952 - SeleniumPractice -INFO - Clicked on submit button
+2020-06-27 15:29:09,953 - SeleniumPractice -INFO - validation started....
+2020-06-27 15:29:09,977 - SeleniumPractice -INFO - test case passed....

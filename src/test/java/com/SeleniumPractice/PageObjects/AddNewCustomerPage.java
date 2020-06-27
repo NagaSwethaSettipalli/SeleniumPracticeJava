@@ -2,7 +2,8 @@ package com.SeleniumPractice.PageObjects;
 
 
   
-  import org.openqa.selenium.WebDriver; import org.openqa.selenium.WebElement;
+  import org.openqa.selenium.WebDriver; 
+  import org.openqa.selenium.WebElement;
   import org.openqa.selenium.support.CacheLookup; import
   org.openqa.selenium.support.FindBy; import
   org.openqa.selenium.support.PageFactory;
@@ -20,7 +21,7 @@ package com.SeleniumPractice.PageObjects;
   @CacheLookup
   WebElement AddCustomerLink;
   
-  @FindBy(name ="name")
+  @FindBy(xpath ="/html/body/table/tbody/tr/td/table/tbody/tr[4]/td[2]/input")
   @CacheLookup
   WebElement CustomerNameTxt;
   

@@ -64,7 +64,7 @@ public class TC2_AddNewCustomerTest extends BaseClass {
 		}
 		else
 		{
-			logger.info("test case failed....");
+			logger.info(" Add new cutomer test case failed....");
 			CaptureScreenshot(driver,"addNewCustomer");
 			Assert.assertTrue(false);
 		}

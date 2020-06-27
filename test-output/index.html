@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-SeleniumPractice" class="navigator-link ">
-                    <span>C:\Users\bommadi\eclipse-workspace\SeleniumPractice\testng.xml</span>
+                    <span>D:\eclipse-workspace\SeleniumPractice\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-SeleniumPractice" class="show-methods passed suite-SeleniumPractice"> (show)</a> <!-- show-methods passed suite-SeleniumPractice -->
                     </span>
                     <div class="method-list-content passed suite-SeleniumPractice">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SeleniumPractice" title="com.SeleniumPractice.testCases.TC1_LoginTest" class="method navigator-link" hash-for-method="LoginTest">LoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-SeleniumPractice" title="com.SeleniumPractice.testCases.TC2_AddNewCustomerTest" class="method navigator-link" hash-for-method="addNewCustomer">addNewCustomer</a> <!-- method navigator-link -->
@@ -120,6 +125,21 @@
           <div class="suite-SeleniumPractice-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.SeleniumPractice.testCases.TC1_LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTest">
+                  </a> <!-- LoginTest -->
+                  <span class="method-name">LoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SeleniumPractice-class-passed -->
+          <div class="suite-SeleniumPractice-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.SeleniumPractice.testCases.TC2_AddNewCustomerTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -135,7 +155,7 @@
         </div> <!-- panel SeleniumPractice -->
         <div panel-name="test-xml-SeleniumPractice" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\bommadi\eclipse-workspace\SeleniumPractice\testng.xml</span>
+            <span class="header-content">D:\eclipse-workspace\SeleniumPractice\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -148,6 +168,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;First test&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.SeleniumPractice.testCases.TC1_LoginTest&quot;/&gt;
       &lt;class name=&quot;com.SeleniumPractice.testCases.TC2_AddNewCustomerTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- First test --&gt;
@@ -162,7 +183,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">First test (1 class)</span>
+                <span class="test-name">First test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -188,16 +209,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addNewCustomer')
 data.setCell(0, 2, 'com.SeleniumPractice.testCases.TC2_AddNewCustomerTest')
-data.setCell(0, 3, 16130);
+data.setCell(0, 3, 17063);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LoginTest')
+data.setCell(1, 2, 'com.SeleniumPractice.testCases.TC1_LoginTest')
+data.setCell(1, 3, 5567);
 window.suiteTableData['SeleniumPractice']= { tableData: data, tableDiv: 'times-div-SeleniumPractice'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
               <div id="times-div-SeleniumPractice">
               </div> <!-- times-div-SeleniumPractice -->
             </div> <!-- times-div -->
@@ -223,18 +248,33 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.SeleniumPractice.testCases.TC2_AddNewCustomerTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.SeleniumPractice.testCases.TC1_LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">addNewCustomer</span>
-                <span class="method-start">12396 ms</span>
+                <span class="method-name">LoginTest</span>
+                <span class="method-start">8078 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">28548 ms</span>
+                <span class="method-start">13682 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SeleniumPractice.testCases.TC2_AddNewCustomerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">14384 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addNewCustomer</span>
+                <span class="method-start">23564 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40628 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
